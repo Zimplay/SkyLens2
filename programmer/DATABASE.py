@@ -3,7 +3,7 @@ from mysql.connector import connect, Error
 
 try:
     with connect(
-        host = 'localhost',
+        host = '62.76.220.88',
         user = 'root',
         password = 'Jkbvg!18'
     ) as connection:
